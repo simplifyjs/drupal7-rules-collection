@@ -8,7 +8,7 @@
 * Import rules to **<YOUR-DOMAIN>**/admin/config/workflow/rules/reaction/import
 
 ## Table of contents
-1. [Set "For Review" Role upon registration]https://github.com/simplifyjs/drupal7-rules-collection#set-for-review-role-upon-registration)
+1. [Set "For Review" Role upon registration](https://github.com/simplifyjs/drupal7-rules-collection#set-for-review-role-upon-registration)
 2. [Approved Registration](https://github.com/simplifyjs/drupal7-rules-collection#approved-registration-upon-removal-of-for-review-role)
 
 ## Set "For Review" Role upon registration
