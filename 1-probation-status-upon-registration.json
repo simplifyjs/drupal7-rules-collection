@@ -1,0 +1,12 @@
+{ "rules__review_status_upon_registration" : {
+  "LABEL" : "\u0022For Review\u0022 status upon registration",
+  "PLUGIN" : "reaction rule",
+  "OWNER" : "rules",
+  "REQUIRES" : [ "rules" ],
+  "ON" : { "user_insert" : [] },
+  "IF" : [ { "user_is_blocked" : { "account" : [ "account" ] } } ],
+  "DO" : [
+    { "user_add_role" : { "account" : [ "account" ], "roles" : { "value" : { "5" : "5" } } } }
+  ]
+}
+}
